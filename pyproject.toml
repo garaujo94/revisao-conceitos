@@ -1,0 +1,19 @@
+[project]
+name = "revisao-conceitos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gustavo Araujo", email = "gala.gustavoantonio@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "marimo>=0.25.1",
+]
+
+[project.scripts]
+revisao-conceitos = "revisao_conceitos:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
